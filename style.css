@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    margin: 0;
+    font-size: 80px;
+    width: 100%;
+}
+
+
+
+.hero-image{
+    background:linear-gradient(0deg, rgba(9, 9, 9, 0.3), rgba(34, 32, 33, 0.3)), url("images/aleks-dahlberg-s5eCOoAWSaE-unsplash.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text{
+    font-size: 5rem;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    color: #FFF;
+
+
+}
+
+
+img {
+    width: 80%;
+
+
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 80px;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+/* .info {
+    font-size: 16px;
+
+} */
