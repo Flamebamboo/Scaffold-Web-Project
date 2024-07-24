@@ -4,7 +4,7 @@
 
 
 .hero-image{
-    background:linear-gradient(0deg, rgba(9, 9, 9, 0.3), rgba(34, 32, 33, 0.3)), url("images/aleks-dahlberg-s5eCOoAWSaE-unsplash.jpg");
+    background:linear-gradient(0deg, rgba(9, 9, 9, 0.3), rgba(34, 32, 33, 0.3)), url("images/hero_mountain.jpg");
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,6 +29,7 @@
 img {
     width: 100%;
     margin: left;
+    border-radius: 5px;
 
 }
 
@@ -44,7 +45,29 @@ img {
 
 .info {
     font-size: 1.2rem;
-    
 
 
+
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+
+
+}
+
+
+.card {
+
+    background-color: blue 
+}
+
+.card-text{
+    text-align: center;
+    color: whitesmoke;
 }
